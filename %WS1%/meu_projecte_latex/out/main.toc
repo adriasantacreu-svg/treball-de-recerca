@@ -1,0 +1,19 @@
+\babel@toc {catalan}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducció i Motivació}{1}{chapter.1}%
+\contentsline {section}{Motius de la tria}{1}{section*.2}%
+\contentsline {section}{Orientació del treball}{1}{section*.3}%
+\contentsline {section}{Altres consideracions}{1}{section*.4}%
+\contentsline {chapter}{\numberline {2}Marc Teòric}{2}{chapter.2}%
+\contentsline {section}{Comunicació}{2}{section*.5}%
+\contentsline {subsection}{Verbal}{2}{subsection*.6}%
+\contentsline {subsubsection}{CAA Sense Ajuda (No assistida)}{2}{subsubsection*.7}%
+\contentsline {subsubsection}{CAA Amb Ajuda (Assistida):}{2}{subsubsection*.8}%
+\contentsline {section}{Sistemes de suport}{2}{section*.9}%
+\contentsline {section}{Integració sensorial}{3}{section*.10}%
+\contentsline {section}{Dificultats comunicatives}{3}{section*.11}%
+\contentsline {chapter}{\numberline {3}Objectius i Hipòtesi}{4}{chapter.3}%
+\contentsline {section}{Objectius}{4}{section*.12}%
+\contentsline {section}{Hipòtesi (Preguntes inicials)}{4}{section*.13}%
+\contentsline {chapter}{\numberline {4}Metodologia}{5}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusions}{6}{chapter.5}%
+\contentsline {chapter}{Bibliografia i Webgrafia}{7}{chapter*.14}%
