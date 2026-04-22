@@ -2,6 +2,10 @@
 
 Aquest fitxer serveix com a guia de context per a Gemini. Resumeix l'estat del Treball de Recerca (TdR) de la Laia Cabrera Vallejos.
 
+## Com treballem?
+Quan hagis de fer modificacions sobre el meu projecte ho faràs sempre seguint les indicacions de la SKILL que hem elaborat perquè treballis de la manera adequada. 
+**UBICACIÓ SKILL:** `/workspaces/treball-de-recerca/skills/treball-recerca-latex.md`
+
 ## 📝 Descripció del Projecte
 El treball se centra en el **disseny i la utilitat d'una taula sensorial** com a eina de suport per a persones amb dificultats comunicatives (TEA, paràlisi cerebral, retard del llenguatge, etc.). Combina conceptes de Comunicació Augmentativa i Alternativa (CAA) amb l'estimulació sensorial per millorar l'autonomia i la inclusió.
 
