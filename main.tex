@@ -5,6 +5,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[catalan]{babel} 
 \usepackage{graphicx}
+\usepackage{float}
+\graphicspath{{imatges/}}
 \usepackage{geometry}
 \geometry{margin=2.5cm}
 \usepackage{setspace}
@@ -29,7 +31,6 @@
 % --- Configuració de Smart Diagram (Estil Pastel) ---
 \smartdiagramset{
     set color list={SoftBlue, SoftPink, SoftGreen, SoftLavender, DeepPastelBlue},
-    sequence item numbering=false,
     module minimum width=3cm,
     module minimum height=1.5cm,
     text width=2.5cm,
@@ -123,39 +124,45 @@
 \begin{titlepage}
     \begin{tikzpicture}[remember picture,overlay]
         % Franja lateral decorativa
-        \fill[SoftBlue] (current page.north west) rectangle ([xshift=5cm]current page.south west);
-        \fill[SoftPink!30] ([xshift=5cm]current page.north west) rectangle ([xshift=5.2cm]current page.south west);
+        \fill[SoftBlue] (current page.north west) rectangle ([xshift=4.5cm]current page.south west);
+        \fill[SoftPink!30] ([xshift=4.5cm]current page.north west) rectangle ([xshift=4.7cm]current page.south west);
     \end{tikzpicture}
 
-    \vspace{-1cm}
-    \begin{flushright}
-        {\large \textbf{Institut Escola Sant Pol de Mar}} \\[4cm]
-        
-        \begin{tcolorbox}[colback=white, colframe=DeepPastelBlue, width=13cm, arc=10pt, boxrule=1.5pt, rightrule=10pt, top=1cm, bottom=1cm, left=0.5cm]
-            {\Huge \bfseries \color{DeepPastelBlue} La comunicació a través dels sentits} \\[0.5cm]
-            {\large \itshape Disseny i utilitat d'una taula sensorial per a persones amb dificultats comunicatives}
-        \end{tcolorbox}
-        
-        \vspace{2cm}
-        
-        % Espai per a la imatge central amb un estil més integrat
-        \begin{tcolorbox}[colback=SoftBlue!5, colframe=SoftBlue!20, width=10cm, height=6cm, arc=20pt, halign=center, valign=center]
-            \textcolor{DeepPastelBlue!40}{\Large \textit{Imatge del Projecte}}
-        \end{tcolorbox}
-        
-        \vfill
-        
-        {\large \textbf{Treball de Recerca de Batxillerat}} \\[1cm]
-        
-        \begin{minipage}{0.6\textwidth}
-            \begin{flushright}
-                \large
-                \textbf{Autora:} Laia Cabrera Vallejos \\
-                \textbf{Tutor:} Enric Abadal Maestro \\
-                \textbf{Curs:} 2025-2026
-            \end{flushright}
-        \end{minipage}
-    \end{flushright}
+    \begin{minipage}[t][\textheight][t]{0.2\textwidth}
+        % Espai buit per a la franja lateral
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t][\textheight][t]{0.75\textwidth}
+        \begin{flushright}
+            \vspace{1cm}
+            {\large \textbf{Institut Escola Sant Pol de Mar}} \\[3.5cm]
+            
+            \begin{tcolorbox}[colback=white, colframe=DeepPastelBlue, width=\textwidth, arc=15pt, boxrule=2pt, leftrule=12pt, top=1.2cm, bottom=1.2cm, left=0.8cm]
+                {\Huge \bfseries \color{DeepPastelBlue} La comunicació a través dels sentits} \\[0.6cm]
+                {\large \itshape \color{gray!80} Disseny i utilitat d'una taula sensorial per a persones amb dificultats comunicatives}
+            \end{tcolorbox}
+            
+            \vspace{2cm}
+            
+            \begin{tcolorbox}[colback=SoftBlue!5, colframe=SoftBlue!20, width=10.5cm, height=6.5cm, arc=30pt, halign=center, valign=center, boxrule=1pt]
+                \textcolor{DeepPastelBlue!40}{\Large \textit{Imatge del Projecte}}
+            \end{tcolorbox}
+            
+            \vfill
+            
+            {\large \textbf{Treball de Recerca de Batxillerat}} \\[1.2cm]
+            
+            \begin{minipage}{\textwidth}
+                \begin{flushright}
+                    \large
+                    \textbf{Autora:} Laia Cabrera Vallejos \\
+                    \textbf{Tutor:} Enric Abadal Maestro \\
+                    \textbf{Curs:} 2025-2026
+                \end{flushright}
+            \end{minipage}
+            \vspace{1cm}
+        \end{flushright}
+    \end{minipage}
 \end{titlepage}
 
 % --- ÍNDEX (Opcional però recomanat) ---
@@ -172,6 +179,13 @@
 
 % --- CAPÍTOL 3: OBJECTIUS I HIPÒTESI ---
 \input{objectius-i-hipotesi}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{imatges/image.png}
+    \caption{Cèl·lula procariota}
+    \label{fig:etiqueta}
+\end{figure}
 
 % --- CAPÍTOL 4: METODOLOGIA ---
 \input{metodologia}

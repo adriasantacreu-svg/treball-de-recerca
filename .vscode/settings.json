@@ -24,5 +24,15 @@
     "latex-workshop.latex.rootFile.doNotPrompt": true,
     "latex-workshop.latex.search.rootFiles.enabled": true,
     "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
-    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true,
+    
+    // --- CONFIGURACIÓ NATIVA DE VS CODE PER A IMATGES (La clau) ---
+    "editor.copyPaste.copyExternalFiles": true,
+    "editor.dropIntoEditor.enabled": true,
+    "editor.dropIntoEditor.showDropSelector": "always",
+    "editor.pasteAs.enabled": true,
+    "editor.pasteAs.showPasteSelector": "always",
+    
+    // On es guardaran les fotos quan les enganxis o arrosseguis
+    "latex-workshop.bind.enter.key": true
 }

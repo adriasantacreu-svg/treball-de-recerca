@@ -1,0 +1,15 @@
+{
+	"Inserir Figura": {
+		"scope": "latex",
+		"prefix": "figura",
+		"body": [
+			"\\begin{figure}[H]",
+			"    \\centering",
+			"    \\includegraphics[width=0.7\\textwidth]{${1:nom_imatge}}",
+			"    \\caption{${2:Descripció de la imatge}}",
+			"    \\label{fig:${3:etiqueta}}",
+			"\\end{figure}"
+		],
+		"description": "Insereix un bloc de figura complet per a LaTeX"
+	}
+}
